@@ -14,7 +14,7 @@
 ### 安裝指南及操作
 1.安裝 Node.js，版本至少16.15.1  
 2.安裝 Java 17  
-3.下載 git clone https://gitlab.iisigroup.com/ps150/g-p231301/modapc/dataanalysisgraph.git  
+3.下載 git clone  
 4.cd cytoscape  
 5.打包專案，會自動將前端打包好放進後端 mvn install  
 6.啟動 mvn spring-boot:run  
