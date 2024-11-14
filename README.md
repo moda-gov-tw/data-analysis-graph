@@ -14,8 +14,8 @@
 ### 安裝指南及操作
 1.安裝 Node.js，版本至少16.15.1  
 2.安裝 Java 17  
-3.下載 git clone  
-4.cd cytoscape  
+3.下載程式碼 git clone  
+4.cd data-analysis-graph  
 5.打包專案，會自動將前端打包好放進後端 mvn install  
 6.啟動 mvn spring-boot:run  
 7.打開瀏覽器輸入 http://localhost:8080/ 操作  
