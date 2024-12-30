@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",          
+    "build": "vite build",  
+    "serve": "vite preview" 
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
     "core-js": "^3.39.0",
     "cytoscape": "^3.30.4",
     "nanoid": "^5.0.9",
+    "vite": "^6.0.6",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "vuex": "^4.0.0"
@@ -18,11 +20,6 @@
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "^3.8.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "^3.3.1",
     "eslint": "^9.17.0",
     "eslint-plugin-vue": "^9.32.0"
   }
