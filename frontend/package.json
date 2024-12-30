@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.39.0",
     "cytoscape": "^3.30.4",
+    "nanoid": "^5.0.9",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "vuex": "^4.0.0"
