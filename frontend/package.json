@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "vite",          
-    "build": "vite build",  
-    "serve": "vite preview" 
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
     "core-js": "^3.39.0",
     "cytoscape": "^3.30.4",
     "nanoid": "^5.0.9",
-    "vite": "^6.0.6",
+    "vite": "^6.0.7",
+    "vite-plugin-pwa": "^0.21.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
     "vuex": "^4.0.0"
